@@ -1,0 +1,20 @@
+a.head-links:link { 
+    color:rgb(255, 255, 255);
+    font-family: roboto-light;
+    margin-right: 116px;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Light.ttf);
+    font-family: roboto-light;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Black.ttf);
+    font-family: roboto-black;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Regular.ttf);
+    font-family: roboto-regular;
+}

@@ -1,0 +1,89 @@
+a.head-links:link { 
+    color:rgb(255, 255, 255);
+    font-family: roboto-light;
+    margin-right: 99px;
+}
+
+.head-links::after {
+   display: relative;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Light.ttf);
+    font-family: roboto-light;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Black.ttf);
+    font-family: roboto-black;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Regular.ttf);
+    font-family: roboto-regular;
+}
+
+input.contact-selectors {
+    font-size: 20px;
+    width: 325px;
+    height: 55px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: black;
+    outline-color: rgb(42, 31, 206);
+    border: none;
+}
+
+label h2 {
+    font-size: 33.5px;
+}
+
+.textarea {
+    font-family: roboto-regular;
+    font-size: 20px;
+    color: black;
+    border-color: rgb(42, 31, 206);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    outline-color: 3px;
+    resize: none;
+}
+
+
+form {
+    text-align: center;
+}
+
+.sbtn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 3px solid #2396e2;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  margin: 20px;
+  padding: 0.2em 3em;
+  text-decoration: none;
+  font-size: 15px;
+  outline: none;
+  border-color: #2396e2;
+  color: #2396e2;
+  box-shadow: 0 0 40px 40px #2396e2 inset, 0 0 0 0 #2396e2;
+  transition: all 300ms ease-in-out;
+  position: relative;
+}
+
+.sbtn:hover {
+   box-shadow: 0 0 10px 0 #2396e2 inset, 0 0 10px 4px;
+}
+
+.sbtn-h2 {
+   text-transform: uppercase; 
+   font-weight: 700;
+   line-height: 1;
+   letter-spacing: 1.5px;
+}

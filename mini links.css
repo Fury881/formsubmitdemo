@@ -1,0 +1,67 @@
+/* This is the CSS file for all of the mini links in the website. 
+This CSS file does not cover the Location ---> Contact Us mini link.
+This is the CSS file where we cover the mini links in the Learn More section. */
+
+
+a.head-links:link { 
+    color:rgb(255, 255, 255);
+    font-family: roboto-light;
+    margin-right: 41px;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Light.ttf);
+    font-family: roboto-light;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Black.ttf);
+    font-family: roboto-black;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Regular.ttf);
+    font-family: roboto-regular;
+}
+
+.receptionist-you-will-need {
+    text-align: center;
+    font-size: 50px;
+}
+
+li {
+    color: rgb(231, 231, 231);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 60px 0 0;
+    font-size: 30px;
+}
+
+
+/* Extra symbols to replace the bullets in the list. 
+
+🞖
+⯐
+⌑
+⛶
+
+*/
+
+
+li:before {
+    content: "‣";
+    color: rgb(231, 231, 231);
+    margin-right: 13px;
+    font-size: 50px;
+}
+
+
+.flow-chart {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 640.306801px;
+   height: auto;
+} 

@@ -1,0 +1,193 @@
+a.head-links:link { 
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-family: roboto-light;
+    margin-right: 128px;
+    margin-top: 56.5px;
+    float: right;
+    font-size: 26.5px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    z-index: 0;
+    text-shadow: 5px 5px 15px rgb(24, 9, 238);/*OR 5px 5px 15px rgb(199, 199, 199); */
+    position: relative;
+}
+
+
+@font-face {
+    src: url(Fonts/Roboto-Light.ttf);
+    font-family: roboto-light;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Black.ttf);
+    font-family: roboto-black;
+}
+
+@font-face {
+    src: url(Fonts/Roboto-Regular.ttf);
+    font-family: roboto-regular;
+}
+
+
+
+/* This is so no scroll bar will appear. */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+a.head-links:visited {
+    color:rgb(255, 255, 255);
+}
+
+a.head-links:hover {
+    color: rgb(42, 31, 206);
+}
+
+a.head-links:active {
+    color:rgb(17, 0, 255);
+}
+
+a.head-links::after {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 2px;
+   background: currentColor;
+
+   transform: scaleX(0);
+   transform-origin: right;
+   transition: transform 230ms ease-in;
+}
+
+a.head-links:hover::after {
+   transform: scaleX(1);
+   transform-origin: left;
+}
+
+
+div.COVID-19-safety-measures-text {
+    font-size: 22px;
+    text-align: center;
+}
+
+div.COVID-19-safety-measures-text strong.red-all {
+    color:red
+}
+
+
+h1.website-welcome {
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.website-text-enlargement-header {
+    font-size: 30px;
+}
+
+h1 {
+    color: rgb(231, 231, 231);
+    font-family: roboto-regular;
+}
+
+h2 {
+    color: rgb(231, 231, 231);
+    font-family: roboto-regular;
+}
+
+h3 {
+   color: rgb(231, 231, 231);
+    font-family: roboto-regular;
+}
+
+.welcome-h2 {
+    font-size: 30px;
+}
+
+.home-phone-number {
+    color: #65cc29;
+    font-size: 30px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    box-sizing: border-box;
+    height: 88%;
+}
+
+.orthotics:hover {
+    cursor: pointer;
+    transform: translateY(-15px);
+}
+
+.prosthetics:hover {
+    cursor: pointer;
+    transform: translateY(-15px);
+}
+
+
+.menu-icon-h1 {
+    font-size: 40px;
+    line-height: 15px;
+    margin-left: 12px;
+}
+
+.menu-icon-h2 {
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.orthotics {
+    background-color: rgb(30, 16, 233);
+    width: 800px;
+    height: 170px;
+    margin-top: 50px;   
+    margin-left: 100px;
+    background-attachment: fixed;
+    transition: transform .5s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+/* This is for when IF orthotics picture 
+
+    background-image: url(Images/Orthotic\ Picture1\ Resized.png);
+    background-size: contain;
+    background-position-y: 100px;
+
+    Extra color: rgb(42, 31, 206);
+
+*/
+
+.prosthetics {
+    background-color: rgb(30, 16, 233);
+    width: 800px; 
+    height: 170px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-attachment: fixed;
+    transition: transform .5s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+} 
+
+.success {
+   font-family: roboto-regular;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+.thanks-for-success {
+   font-family: roboto-regular;
+   margin-left: 20px;
+   margin-top: 20px;
+}

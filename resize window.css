@@ -1,0 +1,250 @@
+/* This is the selector in HTML that has the main links in a dropdown menu. It SHOULD only appear if the window is too small for the main links to be in their designated location. */
+
+.window-too-small-message {
+    display: none;
+}
+
+.wts-create-h2 {
+    display: none;
+}
+
+.wbal-logo2 {
+    display: none;
+}
+
+.make-space-here {
+    display: none;
+}
+
+.make-space-here-img {
+    display: none;
+}
+
+.make-space-here-img {
+    display: inline-block;
+    margin-top: 420px;
+    margin-left: 30px;
+    opacity: 0;
+}
+
+.make-space-here {
+    display: inline-block;
+}
+
+.dropdown-menu {
+   display: none;
+}
+
+.dropdown {
+   display: none;
+}
+
+.break5 {
+   display: inline-block;
+}
+
+
+ /* BIGGER WINDOW. This is for resizing the window with different window sizes. */
+
+@media screen and (max-width: 1930px) {
+
+    .head-links {
+        display: inline-block;
+    }
+
+    .wbal-logo {
+        position: absolute;
+        left: 21px;
+        top: 18.5px;
+        z-index: -1;
+    } 
+
+    div.background {
+      top: 6px;
+    }
+
+    .wbal-logo2 {
+        display: none;
+    }
+
+    .wts-create-h2 {
+        display: none;
+    }
+
+    .make-space-here {
+        display: none;
+    }
+}
+
+
+/* SMALLER WINDOW. This is for resizing the window with different window sizes. */
+
+@media screen and (max-width: 1896px) {
+
+    .head-links {
+        display: none;
+    }
+
+    div.background {
+        position: absolute;
+        color: #69AA42;
+        width: 483px;
+        height: 200px;
+        top: 5px;
+        left: 5px;
+    }
+
+    .wbal-logo {
+        display: none;
+    }
+
+    .wbal-logo2 {
+        position: absolute;
+        display: inline-block;
+        top: 13px;
+        left: 13px;
+    }
+
+    .a-mini-links:link {
+        color: rgb(233, 233, 233);
+        border: 1px solid rgb(245, 245, 245);
+    }
+    a.mini-links:visited {
+        color: rgb(233, 233, 233);
+    }
+    
+    a.mini-links:hover {
+        color: rgb(243, 243, 243);
+    }
+    
+    a.mini-links:active {
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .break1 {
+        display: none;
+    }
+    
+    .wts-create-h2 {
+        display: inline-block;
+    }
+    
+    .wts-delete-h2 {
+        display: none;
+    }
+
+    .menu-icon-h1 {
+        margin-left: 12px;
+    }
+    
+    .menu-icon-h2 {
+        margin-left: 12px;
+    }
+
+    .orthotics {
+        background-color: rgb(42, 31, 206);
+        width: 475px;
+        height: 200px;
+        background-attachment: fixed;
+        position: absolute;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-top: 55px;
+
+    }
+
+    .prosthetics {
+        background-color: rgb(42, 31, 206);
+        width: 475px;
+        height: 200px;
+        background-attachment: fixed;
+        position: absolute;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-top: 310px;
+    }
+
+    .make-space-here {
+       display: inline-block;
+    }
+
+    .make-space-here-img {
+       display: inline-block;
+    }
+
+   .dropbtn {
+      background-color: rgb(24, 9, 238);  /* #ffffff; */
+      color: #ffffff; /* rgb(24, 9, 238); */
+      padding: 16px;
+      margin-top: 131px;
+      margin-bottom: 5px;
+      margin-left: 180px;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-family: roboto-regular;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      font-size: 25px;
+   } 
+
+   .dropbtn:hover, .dropbtn:focus {
+      background-color: rgb(34, 21, 226); /* #f1f1f1; */
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+   }
+
+   .dropdown {
+      position: relative;
+      display: inline-block;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      outline: none;
+      font-family: roboto-regular;
+   }
+
+   .dropdown-content {
+      display: none;
+      position: absolute;
+      margin-left: 175px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      background-color: #ffffff;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+   }
+
+   .dropdown-content a {
+      color: black;
+      padding: 5px 12px;
+      text-decoration: none;
+      display: block;
+      font-size: 20px;
+   }
+ 
+   .dropdown-content a:hover {
+      background-color: #ddd;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+   }
+ 
+   .show {
+      display: block;
+   }
+
+   .break5 {
+      display: none;
+   }
+} 
